@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon main.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/erzetid/whatsapp-backend/issues"
   },
-  "homepage": "https://github.com/erzetid/whatsapp-backend#readme"
+  "homepage": "https://github.com/erzetid/whatsapp-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "manggon": "^1.0.0",
+    "mongoose": "^6.3.2",
+    "whatsapp-web.js": "^1.16.6"
+  },
+  "devDependencies": {
+    "qrcode-terminal": "^0.12.0"
+  }
 }
